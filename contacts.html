@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+   <title>Document</title>
+</head>
+<body>
+  <h3>My contacts</h3>  
+  <ul>
+    <li>Email i'd: Jahanzaibkhan1155@gmail.com</li>
+    <li>contact no: 03138536114</li>
+    <li>Address: VPO Rangli District Attock Tehsil Jand.</li>
+  </ul>
+  <form class=""action="mailto:jahanzaibkhan1155@gmail.com" method="post" enctype="text/plain">
+    <label>Name: <input type="text"name="First Name"></label><br>
+    <label>Contact no:<input type="number" name="Phone Number"></label><br>
+    <label>Email Address: <input type="email" name="Email I'd"></label><br>
+    <label>Gender:</label><br>
+    <input type="radio"name="gender" value="male">Male
+        <input type="radio"name="gender" value="female">Female<br>
+
+    <label for="fav-color-choice ">Choose your Favourite color:</label>
+    <input list="colors" id="fav-color-choise" name="fav-color-choice" />
+
+    <datalist id="colors">
+      <option value="Green">
+      <option value="Red">
+      <option value="Yellow">
+      <option value="Pink">
+      </datalist>
+       <fieldset>
+        <legend>Choose your favourite subject</legend>
+       
+       <div>
+        <input type="checkbox" name="physics" id="physics">
+        <label for="Physics">Physics</label>
+       </div>
+       <div>
+        <input type="checkbox" name="Computer" id="Computer">
+        <label for="Computer">Computer</label>
+       </div>
+       <div>
+        <input type="checkbox" name="Maths" id="Maths">
+        <label for="Maths">Maths</label>
+       </div>
+       <div>
+        <input type="checkbox" name="Calculus" id="Calculus">
+        <label for="Calculus">Calculus</label>
+       </div>
+       <div>
+        <input type="checkbox" name="Programming" id="Progranning">
+        <label for="Programming">Programming</label>
+       </div>
+      </fieldset>
+      <p>Choose your color</p>
+      <input type="color" id="red" name="red" value="red">Red
+      <br><br>
+      <label for="selectdate">Select date:</label>
+
+      <input type="date"id="select date" name="trip-start" value="dd/mm/yy">
+      <br><br>
+<label for="avatar">Choose Profile picture:</label>
+<input type="file" id="avatar" name="Profile Picture" accept="img.png,img.jpeg">
+<br><br>
+<p>Audio setting:</p>
+<input type="range" id="volume" name="volume" min="1" max="100">
+<label for="Volume">Volume</label>
+
+<div>
+  <input type="range" id="cowbell" name="cowbell" 
+         min="0" max="100" value="90" step="10">
+  <label for="cowbell">Cowbell</label>
+</div>
+
+<div class="control">
+  <label for="id">User ID:</label>
+  <input type="text" name="id" id="id" >
+  <br><br>
+  <input type="reset" value="reset">
+  <br><br>
+  <input type="submit" valje="submit">
+</div>
+<label for="site-search">Search the site:
+
+</label>
+<br>
+<input type="search" id="site-search" name="site"/>
+<br>
+<button>Search</button>
+<br><br>
+<label for="phone">Enter phone number:</label>
+<br><br>
+<input type="tel" id="phone" name="phone">
+<br><br>
+<small>123-456-7890</small>
+<br><br>
+<label for="appt">Please select time:</label>
+<br>
+<input type="time" id="appt" name="time">
+<br><br>
+<label for="password">Enter password:</label>
+<input type="password" name="password" id="password" >
+<br><br>
+<label for="message">Enter Message:</label>
+<textarea name="Message" rows="10"cols="30"></textarea><br>
+<input type="submit" name="">
+  </form>
+  <table>
+    <thead>
+      <tr>
+    <th>one</th>
+    <th>two</th>
+  </tr>
+   </thead>
+   <thead>
+  <tr>
+    <th>Three</th>
+    <th>Four</th>
+  </tr>
+   </thead>
+  </table>
+</body>
+</html>
